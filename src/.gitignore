@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the build process
+/build/
+bin/
+
+# Vendor directory (when using `go mod vendor`)
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go modules
+/go.sum
+/go.mod
+
+# IDE/Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.lock
+
+# Database files
+*.db
+*.sqlite
+
+# Node_modules (if you have any frontend assets)
+/node_modules/
+
+# Compiled binary files
+/dist/
+
+# Local environment files
+.env
+.env.*
+
+# Fiber specific cache or sessions (if stored on the filesystem)
+*.fiber
+/tmp
+/cache
